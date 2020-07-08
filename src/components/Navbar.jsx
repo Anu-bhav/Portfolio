@@ -18,10 +18,10 @@ const Navbar = (props) => {
     <nav
       className={`navbar navbar-expand-lg fixed-top navbar-light ${
         isTop ? "bg-transparent" : "bg-gradient"
-      } `}
+        } `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${FirstName} />`}
+        {`<Anubhav/>`}
       </a>
       <button
         className="navbar-toggler"

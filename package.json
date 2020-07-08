@@ -1,13 +1,13 @@
 {
-  "name": "developers-portfolio",
+  "name": "Anubhav-Portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com",
+  "homepage": "http://anubhav.xyz",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Anubhavsingh Sawdagur",
+    "email": "anubhav_s@outlook.com",
+    "url": "https://github.com/anu-bhav"
   },
   "dependencies": {
     "@popperjs/core": "^2.1.1",

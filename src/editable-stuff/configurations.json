@@ -1,11 +1,11 @@
 {
   "backgroundType": "gradient",
-  "plainBackgroundMode": "daylight",
+  "plainBackgroundMode": "nightlight",
   "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
   "FirstName": "Anubhavsingh",
   "MiddleName": "",
   "LastName": "Sawdagur",
-  "devDesc": "| Engineer | Programmer | Web Developer | Photographer | Athlete | Artist ",
+  "devDesc": "| Software Engineer | Network Administrator | Bug Bounty Hunter | Lab Instructor | Ethical Hacker ",
   "icons": [
     {
       "id": 0,
@@ -33,16 +33,58 @@
     }
   ],
   "aboutHeading": "About Me",
-  "showInstaProfilePic": true,
+  "showInstaProfilePic": false,
   "instaLink": "https://www.instagram.com/",
   "instaUsername": "_anu_bhav_",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "I'm Computer Engineer from NUST CEME, Pakistan with 3+ years of experience in web development. I’m currently the Vice President of student body at Emerging Technologies Research Lab(ETL) and a former Intern at RiseTech. I'm passionate about teaching machines how to think",
+  "aboutDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   "projectHeading": "Recent Projects",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "anu-bhav",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 4,
-  "showNavigationbar": true,
-  "showBlog": false
+  "projectsLength": 12,
+  "showNavigationbar": false,
+  "showBlog": false,
+  "skills": [
+    {
+      "skillName": "Python",
+      "imageUrl": "python.png"
+    },
+    {
+      "skillName": "Bash",
+      "imageUrl": "bash.png"
+    },
+    {
+      "skillName": "Python",
+      "imageUrl": "python.png"
+    },
+    {
+      "skillName": "Bash",
+      "imageUrl": "bash.png"
+    },
+    {
+      "skillName": "Python",
+      "imageUrl": "python.png"
+    },
+    {
+      "skillName": "Bash",
+      "imageUrl": "bash.png"
+    },
+    {
+      "skillName": "Python",
+      "imageUrl": "python.png"
+    },
+    {
+      "skillName": "Bash",
+      "imageUrl": "bash.png"
+    },
+    {
+      "skillName": "Python",
+      "imageUrl": "python.png"
+    },
+    {
+      "skillName": "Bash",
+      "imageUrl": "bash.png"
+    }
+  ]
 }

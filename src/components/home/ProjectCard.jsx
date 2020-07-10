@@ -42,7 +42,7 @@ const ProjectCard = ({ value }) => {
     handleUpdatetime();
   }, [handleUpdatetime]);
 
-  const { name, description, svn_url, stargazers_count, languages_url } = value;
+  const { name, description, svn_url, /* stargazers_count, */ languages_url } = value;
   return (
     <div className="col-md-6">
       <div className="card shadow-lg p-3 mb-5 bg-white rounded">
@@ -67,8 +67,8 @@ const ProjectCard = ({ value }) => {
           <Language value={languages_url}></Language>
           <p className="card-text">
             <span className="text-dark card-link mr-4">
-              <i className="fab fa-github" /> Stars{" "}
-              <span className="badge badge-dark">{stargazers_count}</span>
+              {/* <i className="fab fa-github" /> Stars{" "} */}
+              {/* <span className="badge badge-dark">{stargazers_count}</span> */}
             </span>
             <small className="text-muted">Updated {updated_at}</small>
           </p>

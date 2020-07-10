@@ -37,7 +37,10 @@ const MainBody = () => {
           <h1 className="display-1">
             {FirstName + " " + MiddleName + " " + LastName}
           </h1>
+          <img src={require("../../editable-stuff/images/logo.png")} alt="" className="img-fluid pt-2" style={{ width: "150px" }} />
           <Typist className="lead"> {devDesc}</Typist>
+          <div className="icon">
+          </div>
           <div className="p-5">
             {icons.map((icon) => (
               <a

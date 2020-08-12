@@ -5,13 +5,45 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-node",
+            "name": "Launch Chrome",
             "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/src/App.js"
+            "type": "pwa-chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}"
         }
+        // {
+        //     "type": "pwa-node",
+        //     "request": "launch",
+        //     "name": "Launch Program",
+        //     "skipFiles": [
+        //         "<node_internals>/**"
+        //     ],
+        //     "program": "${workspaceFolder}/src/App.js"
+        // }
+        // {
+        //     "name": "Nodemon Launch Server",
+        //     "type": "node",
+        //     "request": "launch",
+        //     "cwd": "${workspaceRoot}",
+        //     "runtimeExecutable": "nodemon",
+        //     "skipFiles": [
+        //         "<node_internals>/**"
+        //     ],
+        //     "runtimeArgs": [
+        //         "--inspect=5858"
+        //     ],
+        //     "program": "${workspaceFolder}/src/App.js",
+        //     "restart": true,
+        //     "port": 5858,
+        //     "console": "integratedTerminal",
+        //     "internalConsoleOptions": "neverOpen"
+        // }
     ]
 }

@@ -34,7 +34,7 @@ const MainBody = () => {
       >
         <div id="stars"></div>
         <div className="container container-fluid text-center ">
-          <h1 className="display-1">
+          <h1 className="display-1" style={{ "fontWeight": "bold", "fontSize": "5.9em" }}>
             {FirstName + " " + MiddleName + " " + LastName}
           </h1>
           <img src={require("../../editable-stuff/images/logo.png")} alt="" className="img-fluid pt-2" style={{ width: "150px" }} />
@@ -64,7 +64,7 @@ const MainBody = () => {
             role="button"
             aria-label="Learn more about me"
           >
-            More about me
+            About Me
           </a>
         </div>
       </div>

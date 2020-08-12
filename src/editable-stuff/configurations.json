@@ -5,7 +5,7 @@
   "FirstName": "Anubhavsingh",
   "MiddleName": "",
   "LastName": "Sawdagur",
-  "devDesc": "| Software Engineer | Network Administrator | Bug Bounty Hunter | Lab Instructor | Ethical Hacker ",
+  "devDesc": "| Software Engineer | Network Engineer | Ethical Hacker | Pro Linux User | Pro GIT User ",
   "icons": [
     {
       "id": 0,
@@ -47,44 +47,104 @@
   "showBlog": false,
   "skills": [
     {
+      "id": 1,
       "skillName": "Python",
       "imageUrl": "python.png"
     },
     {
+      "id": 2,
       "skillName": "Bash",
       "imageUrl": "bash.png"
     },
     {
-      "skillName": "Python",
-      "imageUrl": "python.png"
+      "id": 3,
+      "skillName": "PHP",
+      "imageUrl": "php.png"
     },
     {
-      "skillName": "Bash",
-      "imageUrl": "bash.png"
+      "id": 4,
+      "skillName": "SQL",
+      "imageUrl": "sql.png"
     },
     {
-      "skillName": "Python",
-      "imageUrl": "python.png"
+      "id": 5,
+      "skillName": "React Js",
+      "imageUrl": "react.png"
     },
     {
-      "skillName": "Bash",
-      "imageUrl": "bash.png"
+      "id": 6,
+      "skillName": "Visual Basic",
+      "imageUrl": "vb.png"
     },
     {
-      "skillName": "Python",
-      "imageUrl": "python.png"
+      "id": 7,
+      "skillName": "C#",
+      "imageUrl": "c_sharp.png"
     },
     {
-      "skillName": "Bash",
-      "imageUrl": "bash.png"
+      "id": 8,
+      "skillName": "Java",
+      "imageUrl": "java.png"
     },
     {
-      "skillName": "Python",
-      "imageUrl": "python.png"
+      "id": 9,
+      "skillName": "C++",
+      "imageUrl": "cplusplus.png"
     },
     {
-      "skillName": "Bash",
-      "imageUrl": "bash.png"
+      "id": 10,
+      "skillName": ".Net",
+      "imageUrl": "dot_net.png"
+    },
+    {
+      "id": 11,
+      "skillName": "HTML",
+      "imageUrl": "html.png"
+    },
+    {
+      "id": 12,
+      "skillName": "JQuery",
+      "imageUrl": "jquery.png"
+    },
+    {
+      "id": 13,
+      "skillName": "CSS",
+      "imageUrl": "css.png"
+    },
+    {
+      "id": 14,
+      "skillName": "Kali Linux",
+      "imageUrl": "kali.png"
+    },
+    {
+      "id": 15,
+      "skillName": "Docker",
+      "imageUrl": "docker.png"
+    },
+    {
+      "id": 16,
+      "skillName": "APEX",
+      "imageUrl": "apex.png"
+    },
+    {
+      "id": 17,
+      "skillName": "GIMP",
+      "imageUrl": "gimp.png"
+    },
+    {
+      "id": 18,
+      "skillName": "Photoshop",
+      "imageUrl": "photoshop.png"
+    },
+    {
+      "id": 19,
+      "skillName": "GIT",
+      "imageUrl": "git.png"
+    },
+    {
+      "id": 20,
+      "skillName": "Encase & XRY",
+      "imageUrl": "encase_xry.png"
     }
   ]
 }

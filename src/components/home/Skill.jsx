@@ -13,10 +13,10 @@ const Skill = () => {
           <div className="row">
 
             {skills.map((skill) => (
-              <div className="col-md-3 col-sm-3 mb-4">
-                <div className="card shadow-lg p-2 mb-1 bg-white rounded" key={skill.id}>
+              <div key={skill.id} className="col-md-3 col-sm-5 mb-4">
+                <div className="card shadow-lg p-2 mb-1 bg-white rounded">
                   <h4 className="card-title text-center">{skill.skillName}</h4>
-                  <img src={require(`../../editable-stuff/images/${skill.imageUrl}`)} alt="" className="img-fluid card-img" style={{ "objectFit": "cover", width: "100%", height: "225px" }} />
+                  <img src={require(`../../editable-stuff/images/${skill.imageUrl}`)} alt="" className="img-fluid card-img" style={{ "objectFit": "cover", width: "225px", height: "225px" }} />
                 </div>
               </div>
             ))}

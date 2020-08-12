@@ -471,3 +471,41 @@
 .bg-gradient {
   background: linear-gradient(rgba(245, 245, 245), rgba(245, 245, 245, 0));
 }
+
+@media only screen and (max-width: 575.98px) {
+  #skills .d-flex{
+    padding: 0px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991.98px) {
+  #skills .d-flex{
+    padding: 8px;
+    max-width: 33%;
+    flex: 0 0 33%;
+  }
+
+  #skills .card-columns .card {
+    height: 235px;
+  }
+  
+  #skills img {
+    height: auto !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  #skills .d-flex{
+    padding: 0px 3px;
+  }
+
+  #skills .card-columns .card {
+    height: 275px;
+  }
+
+  #skills img {
+    height: 215px !important;
+  }
+}

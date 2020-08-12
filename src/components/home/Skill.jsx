@@ -16,7 +16,7 @@ const Skill = () => {
               <div key={skill.id} className="card-columns d-flex justify-content-center col-6 col-md-3 mb-4" style={{ width: "auto" }}>
                 <div className="card shadow-lg p-2 mb-1 bg-white rounded">
                   <h4 className="card-title text-center">{skill.skillName}</h4>
-                  <img src={require(`../../editable-stuff/images/${skill.imageUrl}`)} alt="" className="img-fluid card-img" style={{ "objectFit": "cover", width: "225px", height: "225px" }} />
+                  <img src={require(`../../editable-stuff/images/${skill.imageUrl}`)} alt="" className="img-fluid card-img mx-auto d-block" style={{ "objectFit": "cover", width: "225px", height: "225px" }} />
                 </div>
               </div>
             ))}

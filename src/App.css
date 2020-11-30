@@ -66,6 +66,11 @@
   }
 }
 
+.card.shadow-lg.p-2.mb-1.bg-white.rounded:hover {
+    transform: scale(1.05);
+    transition: all .3s ease-out;
+}
+
 .socialicons {
   color: white;
   padding-left: 5px;

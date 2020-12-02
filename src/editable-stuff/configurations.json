@@ -5,7 +5,7 @@
   "FirstName": "Anubhavsingh",
   "MiddleName": "",
   "LastName": "Sawdagur",
-  "devDesc": "| Software Engineer | Network Engineer | Ethical Hacker | Pro Linux User | Pro GIT User ",
+  "devDesc": "| Software Engineer | Network Engineer | Ethical Hacker | Linux Power User ",
   "icons": [
     {
       "id": 0,
@@ -42,7 +42,7 @@
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "anu-bhav",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 12,
+  "projectsLength": 8,
   "showNavigationbar": false,
   "showBlog": false,
   "skills": [

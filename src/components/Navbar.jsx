@@ -19,7 +19,7 @@ const Navbar = (props) => {
       className={`navbar navbar-expand-lg fixed-top navbar-light ${isTop ? "bg-transparent" : "bg-gradient"
         } `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"} style={{ color: "rgb(0 0 0 / 36%)" }}>
         {`<Anubhav/>`}
       </a>
       <button

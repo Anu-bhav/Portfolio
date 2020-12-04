@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import Pdf from "../editable-stuff/resume.pdf";
-import { showBlog, FirstName } from "../editable-stuff/configurations.json";
+// import { Link } from "react-router-dom";
+// import Pdf from "../editable-stuff/resume.pdf";
+import { showBlog } from "../editable-stuff/configurations.json";
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
@@ -16,8 +16,7 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-light ${
-        isTop ? "bg-transparent" : "bg-gradient"
+      className={`navbar navbar-expand-lg fixed-top navbar-light ${isTop ? "bg-transparent" : "bg-gradient"
         } `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
@@ -37,16 +36,22 @@ const Navbar = (props) => {
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          {showBlog && (
-            <li className="nav-item">
-              <Link
-                className="nav-link lead"
-                to={process.env.PUBLIC_URL + "/blog"}
-              >
-                Blog
-              </Link>
-            </li>
-          )}
+          <li className="nav-item">
+            <a
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
+            >
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className="nav-link lead"
+              href={process.env.PUBLIC_URL + "/#skills"}
+            >
+              Skills
+            </a>
+          </li>
           <li className="nav-item">
             <a
               className="nav-link lead"
@@ -55,7 +60,7 @@ const Navbar = (props) => {
               Projects
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               className="nav-link lead"
               href={Pdf}
@@ -64,18 +69,22 @@ const Navbar = (props) => {
             >
               <b>Resume</b>
             </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              <b>About</b>
-            </a>
-          </li>
+          </li> */}
+          {showBlog && (
+            <li className="nav-item">
+              <a
+                className="nav-link lead" rel="noopener noreferrer"
+                // to={process.env.PUBLIC_URL + "/blog"}
+                href="https://blog.anubhav.xyz/"
+              >
+                Blog
+              </a>
+            </li>
+          )}
+
         </ul>
       </div>
-    </nav>
+    </nav >
   );
 };
 

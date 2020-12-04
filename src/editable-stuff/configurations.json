@@ -42,9 +42,9 @@
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "anu-bhav",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 8,
-  "showNavigationbar": false,
-  "showBlog": false,
+  "projectsLength": 12,
+  "showNavigationbar": true,
+  "showBlog": true,
   "skills": [
     {
       "id": 1,

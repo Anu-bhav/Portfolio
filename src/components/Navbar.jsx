@@ -16,7 +16,7 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-light ${isTop ? "bg-transparent" : "bg-gradient"
+      className={`navbar navbar-expand-lg fixed-top navbar-light ${isTop ? "bg-transparent" : "navbar-white"
         } `}
     >
       <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"} style={{ color: "rgb(0 0 0 / 36%)" }}>

@@ -66,6 +66,10 @@
   }
 }
 
+.navbar-white {
+  background: #ffffff70;
+}
+
 .card.shadow-lg.p-2.mb-1.bg-white.rounded:hover {
     transform: scale(1.05);
     transition: all .3s ease-out;

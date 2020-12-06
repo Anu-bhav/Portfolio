@@ -61,7 +61,7 @@ const ProjectCard = ({ value }) => {
             target=" _blank"
             className="btn btn-outline-secondary"
           >
-            <i className="fab fa-github" /> Repo
+            <i className="fab fa-github" /> Open Repository
           </a>
           <hr />
           <Language value={languages_url}></Language>

@@ -51,17 +51,17 @@ const ProjectCard = ({ value }) => {
           <h5 className="card-title">{name} </h5>
           <p className="card-text">{description} </p>
           <a
-            href={`${svn_url}/archive/master.zip`}
-            className="btn btn-outline-secondary mr-3"
-          >
-            <i className="fab fa-github" /> Clone Project
-          </a>
-          <a
             href={svn_url}
             target=" _blank"
             className="btn btn-outline-secondary"
           >
             <i className="fab fa-github" /> Open Repository
+          </a>
+          <a
+            href={`${svn_url}/archive/master.zip`}
+            className="btn btn-outline-secondary mr-3"
+          >
+            <i className="fab fa-github" /> Clone Repository
           </a>
           <hr />
           <Language value={languages_url}></Language>

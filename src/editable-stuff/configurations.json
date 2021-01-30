@@ -30,6 +30,12 @@
       "image": "fa-twitter",
       "url": "https://www.twitter.com/0_Pr0t0typ3/",
       "style": "socialicons"
+    },
+    {
+      "id": 4,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/anubhavsingh-sawdagur-19747b204/",
+      "style": "socialicons"
     }
   ],
   "aboutHeading": "About Me",

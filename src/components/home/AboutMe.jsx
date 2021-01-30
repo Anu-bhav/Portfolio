@@ -45,11 +45,14 @@ const AboutMe = () => {
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid bg-transparent m-0">
       <div className="container container-fluid p-5">
+        <div className={`col-lg-12`}>
+          <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
+        </div>
         <div className="row">
           {showInsta && (
-            <div className="col-5 d-none d-lg-block align-self-center">
+            <div className="col-5 d-none mx-auto d-block align-self-center">
               <img
-                className="border border-secondary rounded-circle"
+                className="border border-secondary rounded-circle mb-4"
                 src={require("../../editable-stuff/images/me.png")}
                 alt="profilepicture"
                 style={{ width: "100%", height: "100%" }}
@@ -57,7 +60,7 @@ const AboutMe = () => {
             </div>
           )}
           <div className={`col-lg-${showInsta ? "7" : "12"}`}>
-            <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
+            {/* <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1> */}
             <p className="lead text-center">{aboutDescription}</p>
             {resumeURL && (
               <p className="lead text-center">

@@ -38,7 +38,7 @@ const MainBody = () => {
             {FirstName + " " + MiddleName + " " + LastName}
           </h1>
           <img src={require("../../editable-stuff/images/logo.png")} alt="" className="img-fluid pt-2" style={{ width: "150px" }} />
-          <b><Typist className="lead"> {devDesc}</Typist></b>
+          <b><Typist className="lead font-weight-bold"> {devDesc}</Typist></b>
           <div className="icon">
           </div>
           <div className="p-5">

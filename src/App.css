@@ -1,20 +1,13 @@
 .bgstyle {
   /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
-  background: linear-gradient(
-    136deg,
-    #4484ce,
-    #1ad7c0,
-    #ff9b11,
-    #9b59b6,
-    #ff7f7f,
-    #ecf0f1
-  );
+  /* background: linear-gradient(136deg,#4484ce,#1ad7c0,#ff9b11,#9b59b6,#ff7f7f,#80fbd9); */
+  background: linear-gradient(136deg,#63fcc6, #2cf2df, #03e7f1, #3ad9fa, #65caf8);
 
   background-size: 1200% 1200%;
-  -webkit-animation: AnimationName 85s ease infinite;
-  -moz-animation: AnimationName 85s ease infinite;
-  -o-animation: AnimationName 85s ease infinite;
-  animation: AnimationName 85s ease infinite;
+  -webkit-animation: AnimationName 70s ease infinite;
+  -moz-animation: AnimationName 70s ease infinite;
+  -o-animation: AnimationName 70s ease infinite;
+  animation: AnimationName 70s ease infinite;
   height: 100%;
 }
 

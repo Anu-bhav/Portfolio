@@ -4,6 +4,7 @@ import Pdf from "../../editable-stuff/resume.pdf";
 import {
   aboutHeading,
   aboutDescription,
+  aboutDescription2,
   showInstaProfilePic,
   // instaLink,
   // instaUsername,
@@ -61,7 +62,7 @@ const AboutMe = () => {
           )}
           <div className={`col-lg-${showInsta ? "7" : "12"}`}>
             {/* <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1> */}
-            <p className="lead text-center">{aboutDescription}</p>
+            <p className="lead text-center">{aboutDescription} <br />{aboutDescription2}</p>
             {resumeURL && (
               <p className="lead text-center">
                 <a
@@ -79,7 +80,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

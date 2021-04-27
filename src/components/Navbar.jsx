@@ -7,7 +7,7 @@ const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      const istop = window.scrollY < 200;
+      const istop = window.scrollY < 300;
       if (istop !== isTop) {
         setIsTop(istop);
       }
@@ -19,7 +19,7 @@ const Navbar = (props) => {
       className={`navbar navbar-expand-lg fixed-top navbar-light ${isTop ? "bg-transparent" : "navbar-white"
         } `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"} style={{ color: "rgb(0 0 0 / 36%)" }}>
+      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"} style={isTop ? { color: "rgb(255 255 255 / 80%)" } : { color: "rgb(0 0 0 / 36%)" }}>
         {`<Anubhav/>`}
       </a>
       <button
@@ -40,6 +40,7 @@ const Navbar = (props) => {
             <a
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
+              style={isTop ? { color: "rgb(255 255 255 / 80%)" } : { color: "rgb(0 0 0 / 36%)" }}
             >
               About
             </a>
@@ -48,6 +49,7 @@ const Navbar = (props) => {
             <a
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#skills"}
+              style={isTop ? { color: "rgb(255 255 255 / 80%)" } : { color: "rgb(0 0 0 / 36%)" }}
             >
               Skills
             </a>
@@ -56,6 +58,7 @@ const Navbar = (props) => {
             <a
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
+              style={isTop ? { color: "rgb(255 255 255 / 80%)" } : { color: "rgb(0 0 0 / 36%)" }}
             >
               Projects
             </a>
@@ -74,6 +77,7 @@ const Navbar = (props) => {
             <li className="nav-item">
               <a
                 className="nav-link lead" rel="noopener noreferrer"
+                style={isTop ? { color: "rgb(255 255 255 / 80%)" } : { color: "rgb(0 0 0 / 36%)" }}
                 // to={process.env.PUBLIC_URL + "/blog"}
                 href="https://blog.anubhav.xyz/"
               >

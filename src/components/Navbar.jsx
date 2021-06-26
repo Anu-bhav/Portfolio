@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 // import Pdf from "../editable-stuff/resume.pdf";
-import { showBlog } from "../editable-stuff/configurations.json";
+import { showBlog, blogUrl } from "../editable-stuff/configurations.json";
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
@@ -79,7 +79,7 @@ const Navbar = (props) => {
                 className="nav-link lead" rel="noopener noreferrer"
                 style={isTop ? { color: "rgb(255 255 255 / 80%)" } : { color: "rgb(0 0 0 / 36%)" }}
                 // to={process.env.PUBLIC_URL + "/blog"}
-                href="https://anu-bhav.github.io/Blog/"
+                href={blogUrl}
               >
                 Blog
               </a>

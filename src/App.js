@@ -6,6 +6,7 @@ import "./App.css";
 import {
   showNavigationbar,
   showBlog,
+  blogUrl,
 } from "./editable-stuff/configurations.json";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
@@ -32,7 +33,7 @@ const App = () => (
     {showNavigationbar && <Navbar />}
     <Route path="/" exact component={Home} />
     {showBlog && <Route path="/blog" component={() => {
-      window.location.href = 'https://anu-bhav.github.io/Blog/';
+      window.location.href = { blogUrl };
       return null;
     }} />}
     {/* {showBlog && <Route path="/blog/:id" component={BlogPost} />} */}

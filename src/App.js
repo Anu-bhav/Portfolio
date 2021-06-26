@@ -32,7 +32,7 @@ const App = () => (
     {showNavigationbar && <Navbar />}
     <Route path="/" exact component={Home} />
     {showBlog && <Route path="/blog" component={() => {
-      window.location.href = 'https://blog.anubhav.xyz/';
+      window.location.href = 'https://anu-bhav.github.io/Blog/';
       return null;
     }} />}
     {/* {showBlog && <Route path="/blog/:id" component={BlogPost} />} */}

@@ -79,7 +79,7 @@ const Navbar = (props) => {
                 className="nav-link lead" rel="noopener noreferrer"
                 style={isTop ? { color: "rgb(255 255 255 / 80%)" } : { color: "rgb(0 0 0 / 36%)" }}
                 // to={process.env.PUBLIC_URL + "/blog"}
-                href="https://blog.anubhav.xyz/"
+                href="https://anu-bhav.github.io/Blog/"
               >
                 Blog
               </a>

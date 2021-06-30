@@ -77,16 +77,18 @@ const AboutMe = () => {
                 >
                   Resume
                 </a>
-                <a
-                  className="btn btn-outline-dark btn-lg"
-                  href={Cover}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  role="button"
-                  aria-label="CoverLetter"
-                >
-                  Cover Letter
-                </a>
+                {CoverURL && (
+                  <a
+                    className="btn btn-outline-dark btn-lg"
+                    href={Cover}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    role="button"
+                    aria-label="CoverLetter"
+                  >
+                    Cover Letter
+                  </a>
+                )}
               </p>
             )}
           </div>

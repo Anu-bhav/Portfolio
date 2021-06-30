@@ -1,6 +1,7 @@
 import React, { useState /*, useEffect */ } from "react";
 // import axios from "axios";
 import Pdf from "../../editable-stuff/resume.pdf";
+import Cover from "../../editable-stuff/cover.pdf";
 import {
   aboutHeading,
   aboutDescription,
@@ -16,6 +17,7 @@ const AboutMe = () => {
   // const [showInsta, setShowInsta] = useState(showInstaProfilePic);
   const [showInsta] = useState(showInstaProfilePic);
   const [resumeURL] = useState(Pdf);
+  const [CoverURL] = useState(Cover);
 
   // useEffect(() => {
   //   if (showInsta) {
@@ -66,7 +68,7 @@ const AboutMe = () => {
             {resumeURL && (
               <p className="lead text-center">
                 <a
-                  className="btn btn-outline-dark btn-lg"
+                  className="btn btn-outline-dark btn-lg mr-3"
                   href={Pdf}
                   target="_blank"
                   rel="noreferrer noopener"
@@ -74,6 +76,16 @@ const AboutMe = () => {
                   aria-label="Resume/CV"
                 >
                   Resume
+                </a>
+                <a
+                  className="btn btn-outline-dark btn-lg"
+                  href={Cover}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  role="button"
+                  aria-label="CoverLetter"
+                >
+                  Cover Letter
                 </a>
               </p>
             )}
